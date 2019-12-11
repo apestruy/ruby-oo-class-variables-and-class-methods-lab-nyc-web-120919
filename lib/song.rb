@@ -13,11 +13,11 @@ class Song
   end 
   
   def self.genres 
-    @@genres
+    @@genres.uniq 
   end 
   
   def self.artists 
-    @@artists.find do |artist|
+    @@artists.uniq 
   end 
   
   def self.genre_count 
