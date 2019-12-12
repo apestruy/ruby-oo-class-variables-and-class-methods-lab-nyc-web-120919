@@ -43,5 +43,9 @@ class Song
     end 
     hash 
   end 
+  
+  def self.count 
+  
+  end 
 end 
 
